@@ -31,7 +31,7 @@ void setup()
   myRadio.openWritingPipe(address);
   myRadio.stopListening();
   delay(1000);
-  emon1.current(A0, 111.1);
+  emon1.current(A0, 111.1); // (pinout,calibration)
   //pinMode(A0,INPUT);
 }
 
